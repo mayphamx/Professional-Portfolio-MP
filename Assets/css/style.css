@@ -44,9 +44,9 @@ nav a:hover {
     text-align: center;
 } */
 
-section {
-    width: 200px;
-    height: 600px;
+main {
+    /* width: 200px;
+    height: 600px; */
     text-align: center;
     /* border: 15px solid pink; */
     /* margin: 0 auto;
@@ -54,11 +54,23 @@ section {
     flex-wrap: wrap;
 }
 
-img {
-    display: block;
-    width: 250%;
-    border: 15px solid pink;
-    /* margin: 0 auto; */
-    padding: 20px;
-    margin: auto;
+/* defines styling for area surrounding image */
+.pic {
+    background-color: palevioletred;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* defines styling for image itself */
+#mypic {
+    width: 500px;
+    border-radius: 10%; 
+    padding: 10px;
+}
+
+.p {
+    text-align: center;
+    background-color: pink;
+    flex-wrap: wrap;
 }
