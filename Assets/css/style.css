@@ -152,8 +152,15 @@ main {
 
 .subcontent a:hover {
     color: rgb(186, 16, 124);
+    font-size: larger;
+    opacity: 70%;
 }
 
+/* .portfolio a:hover {
+    color: rgb(186, 16, 124);
+    font-size: larger;
+    opacity: 50%;
+} */
 /* .portfolio {
     justify-content: center; 
     align-items: center;
