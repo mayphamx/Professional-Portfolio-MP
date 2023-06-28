@@ -1,76 +1,102 @@
+/* universal styling*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: rgb(103, 77, 42);
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace'
 }
 
-
+/* styling for header */
 header {
     text-align: center;
-    font-size: 30px;
-    color: darkblue;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
-    background-color: palevioletred;
-    border-bottom: solid darkblue;
+    font-size: 50px;
+    padding: 30px;
+    border-bottom: solid rgb(103, 77, 42);
     width: 100%;
+    ;
 }
 
+/* styling for nav bar in header section */
 nav {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
+/* styling for lists in nav bar in header section */
 nav ul li {
     display: inline-block;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 30px;
 }
+
+/* styling for contents in nav bar in header section*/
 nav a {
-    color: darkblue;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
   }
 
+/* hover effect for nav bar in header section */
 nav a:hover {
-    color: white;
+    color: rgb(190, 91, 154);
 }
 
-/* header nav {
-    color: gray;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-} */
-
+/* styling for main section */
 main {
-    /* width: 200px;
-    height: 600px; */
     text-align: center;
-    /* border: 15px solid pink; */
-    /* margin: 0 auto;
-    padding: 20px; */
     flex-wrap: wrap;
 }
 
-/* defines styling for area surrounding image */
+/* styling for area surrounding image */
 .pic {
-    background-color: palevioletred;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
-/* defines styling for image itself */
+/* defines styling for image content */
 #mypic {
     width: 500px;
     border-radius: 10%; 
     padding: 10px;
 }
 
-.p {
-    text-align: center;
-    background-color: pink;
+/* styling for content section */
+.content {
     flex-wrap: wrap;
+    display: flex;
+    max-width: 85%;
+    text-align: center;
+    margin: 2% 10%;
+    font-size: 25px;
+}
+
+/*styling for title in content section*/
+.title {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+    padding-top: 4%;
+    font-size: 27px;
+    width: 20%;
+}
+
+/* styling for subcontent in content section */
+.subcontent {
+    max-width: 75%;
+    padding-left: 4%;
+    padding-top: 1%;
+    margin-top: 3%;
+    border-left: 8px solid rgb(103, 77, 42); ;
+}
+
+.subcontent ul li {
+    list-style-type: none;
+    /* display: flex; */
+    justify-content: flex-start;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 25px;
 }
