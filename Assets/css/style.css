@@ -5,6 +5,8 @@
     margin: 0;
     color: rgb(103, 77, 42);
     background-color: pink;
+    align-content: center;
+    text-decoration: none;
     font-family: 'Courier New', Courier, monospace'
 }
 
@@ -12,6 +14,15 @@
 header {
     text-align: center;
     font-size: 50px;
+    padding: 30px;
+    border-bottom: solid rgb(103, 77, 42);
+    width: 100%;
+    ;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
     padding: 30px;
     border-bottom: solid rgb(103, 77, 42);
     width: 100%;
@@ -70,6 +81,12 @@ main {
     border:5px solid rgb(103, 77, 42);
 }
 
+.pic img:hover {
+    box-shadow: 0 0 0 30px #dcafaf;
+    transition: .5s ease;
+}
+
+
 /* styling for content section */
 .content {
     display: flex;
@@ -77,96 +94,124 @@ main {
     max-width: 85%;
     text-align: center;
     margin: 2% 10% 2% 10%;
-    font-size: 25px;
+    font-size: 35px;
+    
 }
 
 /*styling for title in content section*/
-.title {
+/* .title {
     display: flex;
     justify-content: flex-end;
     padding-right: 4%;
     padding-top: 4%;
     font-size: 27px;
     width: 20%;
-}
+} */
 
 /* styling for subcontent in content section */
+/* ???? ASK CENTER AND ROW ALIGN */
 .subcontent {
-    /* display: flex;
-    justify-content: center; */
-    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
     padding-left: 4%;
-    padding-top: 1%;
-    margin-top: 3%;
     border-left: 8px solid rgb(103, 77, 42); 
+    margin: 0 50px;
+}
+
+.portfolio {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 450px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+    
+}
+
+.portfolio:first-child {
+    min-height: 450px;
+    flex-basis: 100%;
 }
 
 .subcontent ul li {
-    /* display: list-item;
-    text-align: center; */
     justify-content: center;
     list-style-type: none;
     display: inline-block;
     margin: 0 30px;
-    /* align-items: center;
-    align-content: center;
-    text-align: center; */
 }
 
-.subcontent div#prework {
-    margin: 5% 20%;
+.content address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    border-left: 8px solid rgb(103, 77, 42); 
+    margin: 0 50px;
+}
+.content address a{
+    display: inline-block;
+    margin: 0 60px;
+}
+
+
+.content > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+
+.subcontent div {
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-image: url(../images/1.jpg);
     background-size: cover;
-    height: 500px;
-    width: 500px;
+    background-position: center;
+    height: 400px;
+    width: 400px;
     border:5px solid rgb(103, 77, 42);
     border-style: solid;
     font-size: 30px;
     font-weight: bold;
-    font-style: italic;
-    border-radius: 20%;
+    /* font-style: italic; */
+    border-radius: 20%;  
+}
+
+/* ??? ASK HOW TO LINK TO BACKGROUND IMG */
+.subcontent div#prework {
+    background-image: url(../images/1.jpg);
+    /* height: 700px;
+    width: 700px; */
 }
 
 .subcontent div#refactor {
-    margin: 5% 20%;
-    display: flex;
-    justify-content: center; 
-    background-image: url(../images/1.jpg);
-    align-items: center;
-    background-size: cover;
-    height: 500px;
-    width: 500px;
-    border:5px solid rgb(103, 77, 42);
-    border-style: solid;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-    border-radius: 20%;
+    background-image: url(../images/2.jpg);
 }
 
 .subcontent div#arche {
-    margin: 5% 20%;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-image: url(../images/2.jpg);
-    background-size: cover;
-    height: 500px;
-    width: 500px;
-    border:5px solid rgb(103, 77, 42);
-    border-style: solid;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic;
-    border-radius: 20%;
+    background-image: url(../images/3.png);
 }
 
 .subcontent a:hover {
     color: rgb(186, 16, 124);
     font-size: larger;
+    font-weight: bold;
     opacity: 90%;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -182,23 +227,28 @@ main {
     transition: 1s ease;
 }
 
-    
-/* image a:hover {
+.content address a:hover {
     color: rgb(186, 16, 124);
     font-size: larger;
-    opacity: 70%;
-} */
-/* .portfolio a:hover {
-    color: rgb(186, 16, 124);
-    font-size: larger;
-    opacity: 50%;
-} */
-/* .portfolio {
-    justify-content: center; 
-    align-items: center;
-    filter: drop-shadow(5px red);
-    margin: 10%;
-    display: flex;
-    flex-wrap:wrap; */
+    font-weight: bold;
+    opacity: 90%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
 
-    /* ADD MEDIA SCREEN */
+footer a:hover {
+    color: rgb(186, 16, 124);
+    font-size: larger;
+    font-weight: bold;
+    opacity: 90%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+@media screen and (min-width: 992px) {
+    article {
+      flex: 0 0 }
