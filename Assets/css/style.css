@@ -116,6 +116,7 @@ main {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    border-radius: 5%;
 }
 
 .subcontent div#refactor {
@@ -132,6 +133,7 @@ main {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    border-radius: 5%;
 }
 
 .subcontent div#arche {
@@ -139,7 +141,7 @@ main {
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-image: url(../images/1.jpg);
+    background-image: url(../images/2.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
@@ -148,6 +150,7 @@ main {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    border-radius: 5%;
 }
 
 .subcontent a:hover {
