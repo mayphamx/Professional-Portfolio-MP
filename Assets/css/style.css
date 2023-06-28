@@ -40,7 +40,7 @@ nav a {
 
 /* hover effect for nav bar in header section */
 nav a:hover {
-    color: rgb(190, 91, 154);
+    color: rgb(186, 16, 124);
 }
 
 /* styling for main section */
@@ -90,7 +90,7 @@ main {
     padding-left: 4%;
     padding-top: 1%;
     margin-top: 3%;
-    border-left: 8px solid rgb(103, 77, 42); ;
+    border-left: 8px solid rgb(103, 77, 42); 
 }
 
 .subcontent ul li {
@@ -100,5 +100,64 @@ main {
     list-style-type: none;
     display: inline-block;
     margin: 0 30px;
-    
 }
+
+.subcontent div#prework {
+    margin: 5% 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border:5px solid rgb(103, 77, 42);
+    border-style: solid;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subcontent div#refactor {
+    margin: 5% 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border:5px solid rgb(103, 77, 42);
+    border-style: solid;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subcontent div#arche {
+    margin: 5% 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border:5px solid rgb(103, 77, 42);
+    border-style: solid;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.subcontent a:hover {
+    color: rgb(186, 16, 124);
+}
+
+/* .portfolio {
+    justify-content: center; 
+    align-items: center;
+    filter: drop-shadow(5px red);
+    margin: 10%;
+    display: flex;
+    flex-wrap:wrap; */
