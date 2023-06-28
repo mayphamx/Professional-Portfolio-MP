@@ -53,6 +53,7 @@ main {
 .pic {
     padding: 10px;
     display: flex;
+    margin-top: 2%;
     justify-content: center;
 }
 
@@ -60,7 +61,7 @@ main {
 #mypic {
     width: 500px;
     border-radius: 10%; 
-    padding: 10px;
+    padding: 5px;
 }
 
 /* styling for content section */
@@ -69,7 +70,7 @@ main {
     display: flex;
     max-width: 85%;
     text-align: center;
-    margin: 2% 10%;
+    margin: 2% 10% 2% 10%;
     font-size: 25px;
 }
 
@@ -93,10 +94,11 @@ main {
 }
 
 .subcontent ul li {
+    /* display: flex;
+    text-align: center; */
+    justify-content: center;
     list-style-type: none;
-    /* display: flex; */
-    justify-content: flex-start;
     display: inline-block;
-    margin: 0 10px;
-    font-size: 25px;
+    margin: 0 30px;
+    
 }
