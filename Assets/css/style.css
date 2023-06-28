@@ -17,23 +17,41 @@ header {
     padding: 30px;
     border-bottom: solid rgb(103, 77, 42);
     width: 100%;
-    ;
+    background-color: rgb(240, 157, 171);
+}
+
+header a {
+    background-color: rgb(240, 157, 171);
 }
 
 /* styling for header */
 footer {
+    background-color: rgb(240, 157, 171);
     text-align: center;
     font-size: 25px;
     padding: 30px;
-    border-bottom: solid rgb(103, 77, 42);
     width: 100%;
-    ;
+}
+
+footer a {
+    background-color: rgb(240, 157, 171);
+}
+
+h3, h1{
+    background-color: rgb(240, 157, 171);
+}
+
+
+/* scroll styling */
+html {
+    scroll-behavior: smooth;
 }
 
 /* styling for nav bar in header section */
 nav {
     padding-top: 10px;
     text-align: center;
+    background-color: rgb(240, 157, 171);
 }
 
 /* styling for lists in nav bar in header section */
@@ -43,12 +61,17 @@ nav ul li {
     font-size: 30px;
 }
 
+nav ul {
+    background-color: rgb(240, 157, 171); 
+}
+
 /* styling for contents in nav bar in header section*/
 nav a {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-  }
+    background-color: rgb(240, 157, 171);
+}
 
 /* hover effect for nav bar in header section */
 nav a:hover {
@@ -192,8 +215,6 @@ main {
 /* add background image for work section */
 .subcontent div#prework {
     background-image: url(../images/1.jpg);
-    /* height: 700px;
-    width: 700px; */
 }
 
 .subcontent div#refactor {
@@ -247,6 +268,7 @@ footer a:hover {
 }
 
 /* media queries */
-@media screen and (min-width: 992px) {
-    article {
-    flex: 0 0 }
+@media screen and (max-width: 700px) {
+    .content div {
+        flex-basis: 100%; }
+}
