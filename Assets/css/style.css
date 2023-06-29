@@ -4,9 +4,7 @@
     padding: 0;
     margin: 0;
     color: rgb(103, 77, 42);
-    background-color: pink;
-    align-content: center;
-    text-decoration: none;
+    background-color: pink;    text-decoration: none;
     font-family: 'Courier New', Courier, monospace'
 }
 
@@ -118,9 +116,8 @@ main {
     flex-wrap: wrap;
     max-width: 85%;
     text-align: center;
-    margin: 2% 10% 2% 10%;
-    font-size: 1.5em;
-    
+    margin: 2% 25%;
+    font-size: 1em;
 }
 
 /* styling for subcontent in content section */
@@ -130,7 +127,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     max-width: 50%;
-    padding-left: 4%;
+    padding-left: 3%;
     border-left: .35em solid rgb(103, 77, 42); 
     margin: 0 2.5em;
 }
@@ -169,22 +166,6 @@ main {
     margin: 0 2em;
 }
 
-/* styling for address section */
-.content address {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    border-left: .35em solid rgb(103, 77, 42); 
-    margin: 0 .5%;
-}
-
-/* styling for address section */
-.content address a{
-    display: inline-block;
-    margin: 0 2em;
-}
 
 /* styling for h2 */
 .content > h2 {
@@ -225,6 +206,25 @@ main {
     background-image: url(../images/3.png);
 }
 
+/* styling for address section */
+.content address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    border-left: .35em solid rgb(103, 77, 42); 
+    margin: 0 2.5em;
+    padding-left: 6%;
+}
+
+/* styling for address section */
+.content address a{
+    /* display: inline-block; */
+    /* padding-left: 2 em; */
+    /* margin-left: 2em; */
+    /* letter-spacing: .1em; */
+    font-weight: bolder;
+}
 /* hover effects for subcontents */
 .subcontent a:hover {
     color: rgb(186, 16, 124);
@@ -270,6 +270,6 @@ footer a:hover {
 /* min or max width? */
 @media screen and (max-width: 480px) {
     main {
-      flex-basis:20%;
+      flex-basis:100%;
     }
 }
