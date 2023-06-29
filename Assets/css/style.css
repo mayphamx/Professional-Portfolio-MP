@@ -11,7 +11,7 @@
 /* styling for header */
 header {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     padding: .5em;
     border-bottom: solid rgb(103, 77, 42);
     width: 100%;
@@ -26,7 +26,7 @@ header a {
 footer {
     background-color: rgb(240, 157, 171);
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: .5em;
     width: 100%;
 }
@@ -148,8 +148,6 @@ main {
     background-blend-mode: soft-light;
     background-size: 150%;
     transition: all 0.5s;
-    font-size: 0.9rem;
-    
 }
 
 /* styling for child section portfolio section */
@@ -173,7 +171,7 @@ main {
     text-align: right;
     padding-right: .5em;
     border-right: 1em solid var(--primary);
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 1.1;
 }
 
@@ -270,6 +268,6 @@ footer a:hover {
 /* min or max width? */
 @media screen and (max-width: 480px) {
     main {
-      flex-basis:100%;
+      flex-basis:50%;
     }
 }
