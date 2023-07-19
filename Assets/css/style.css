@@ -197,6 +197,9 @@ main {
 }
 
 /* add background image for work section */
+.subcontent div#project1 {
+    background-image: url(../images/4.jpg);
+}
 .subcontent div#prework {
     background-image: url(../images/1.jpg);
 }
