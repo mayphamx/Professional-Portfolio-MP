@@ -211,6 +211,9 @@ main {
 .subcontent div#arche {
     background-image: url(../images/3.png);
 }
+.subcontent div#project2 {
+    background-image: url(../images/3.png);
+}
 
 /* styling for address section */
 .content address {
