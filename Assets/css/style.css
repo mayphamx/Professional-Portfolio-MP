@@ -215,6 +215,10 @@ main {
     background-image: url(../images/3.png);
 }
 
+.subcontent div#project3 {
+    background-image: url(../images/1.jpg);
+}
+
 /* styling for address section */
 .content address {
     display: flex;
