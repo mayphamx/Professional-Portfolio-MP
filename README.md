@@ -1,11 +1,11 @@
-# maypham-portfolio
+# Professional-Portfolio-MP
 
 ## Description
-The portfolio was created to showcase May Pham's skills, projects, and experiences while attending the UT Austin coding bootcamp. The purpose of this personal portfolio website is to present a professional and visually appealing showcase of May Pham's work to potential clients, employers, or collaborators. The site includes projects and information regarding how to get in contact with May Pham.
+This project was developed as a dedicated portfolio for showcasing May Pham's skills, projects, and experiences during their enrollment in the UT Austin coding bootcamp. The primary objective of this personal portfolio website is to offer a polished and visually engaging platform for presenting May Pham's body of work to prospective clients, employers, or potential collaborators. The site encompasses an array of projects and provides comprehensive information on how to reach out to May Pham.
 
 ## Usage
 ![Webpage Screenshot](Assets/images/Screenshot.png)
 
-https://mayphamx.github.io/maypham-portfolio/
+ Check out the deployed link here: https://mayphamx.github.io/Professional-Portfolio-MP/
 
-https://github.com/mayphamx/maypham-portfolio
+Visit the GitHub repo here: https://github.com/mayphamx/maypham-portfolio
